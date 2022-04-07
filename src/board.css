@@ -1,0 +1,13 @@
+.board-container {
+  display: grid;
+  grid-template-columns: repeat(3, 200px);
+}
+
+.square {
+  border: 1px solid gray;
+  height: 175px;
+}
+
+.square:hover {
+  cursor: pointer;
+}
